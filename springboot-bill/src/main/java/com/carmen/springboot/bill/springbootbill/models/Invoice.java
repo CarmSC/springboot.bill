@@ -15,8 +15,16 @@ public class Invoice {
       @Value("${invoice.description}")
       private String description;
       
+      @Autowired
       private List<ItemBill> item;
 
+      public Invoice() {
+      }
+      public Invoice(Client client, String description, List<ItemBill> item) {
+            this.client = client;
+            this.description = description;
+            this.item = item;
+      }
       public Client getClient() {
             return client;
       }

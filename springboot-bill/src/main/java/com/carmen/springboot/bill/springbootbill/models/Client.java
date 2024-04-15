@@ -11,7 +11,13 @@ public class Client {
 
       @Value("${client.lastname}")
       private String lastname;
-      
+          
+      public Client() {
+      }
+      public Client(String name, String lastname) {
+            this.name = name;
+            this.lastname = lastname;
+      }
       public String getName() {
             return name;
       }

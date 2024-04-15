@@ -5,6 +5,12 @@ public class ItemBill {
       private Product product;
       private Integer quantity;
       
+      public ItemBill() {
+      }
+      public ItemBill(Product product, Integer quantity) {
+            this.product = product;
+            this.quantity = quantity;
+      }
       public Product getProduct() {
             return product;
       }

@@ -1,0 +1,14 @@
+{
+      "configurations": [
+            {
+                  "type": "java",
+                  "name": "Spring Boot-SpringbootBillApplication<springboot-bill>",
+                  "request": "launch",
+                  "cwd": "${workspaceFolder}",
+                  "mainClass": "com.carmen.springboot.bill.springbootbill.SpringbootBillApplication",
+                  "projectName": "springboot-bill",
+                  "args": "",
+                  "envFile": "${workspaceFolder}/.env"
+            }
+      ]
+}
