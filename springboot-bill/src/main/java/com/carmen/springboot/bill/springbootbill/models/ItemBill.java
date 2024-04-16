@@ -23,5 +23,8 @@ public class ItemBill {
       public void setQuantity(Integer quantity) {
             this.quantity = quantity;
       }
+      public int getImporte() {
+            return quantity * product.getPrice();
+        }
 
 }
