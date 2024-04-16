@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.carmen.springboot.bill.springbootbill.models.Client;
 import com.carmen.springboot.bill.springbootbill.models.Invoice;
 
 @RestController
@@ -16,9 +17,7 @@ public class InvoiceController {
 
       @GetMapping("/showInvoice")
       public Invoice show(){
-
             return invoice;
-
       }
 
 }
